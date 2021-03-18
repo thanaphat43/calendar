@@ -4,6 +4,6 @@ include "Date.php";
     $day = $_POST["Day"];
 
    $calendar =new Date();
-   $result = $calendar->one($month,$day);
+   $result = $calendar->showday($month,$day);
    echo $result;
 ?>
