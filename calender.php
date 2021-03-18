@@ -5,5 +5,6 @@ include "Date.php";
 
    $calendar =new Date();
    $result = $calendar->showday($month,$day);
-   echo $result;
+//    echo $result;
+echo "<h1 id='result'>$result</h1> ";
 ?>
