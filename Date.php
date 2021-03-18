@@ -2,11 +2,11 @@
 
 class Date
 {
-    public function Showdate($mount, $day)
+    public function showday($month, $day)
     {
-        $date = "2021-" . $mount . "-" . $day;
-        $dayofWeek = date("1", strtotime($date));
-        return $dayofWeek;
+        $date = "2021-" . $month . "-" . $day;
+        $dayOfWeek = date("l", strtotime($date));
+        return $dayOfWeek;
     }
 }
 ?>
